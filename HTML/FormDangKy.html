@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/FormDangKy.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+</head>
+<body>
+    <header>
+
+        <div class="img-div">
+            <a href="../HTML/Home.html"><img src="../Pic/vt-gear-low-resolution-color-logo.jpeg" alt="vtgear" class="logoimg"></a>  
+        </div>
+            
+        <div class="search">  
+            <form action="" id="search-box">
+                <input type="text" name="p" placeholder="Nhập mã hoặc tên sản phẩm..."  id="search-text" style="background-color: #fff; font-family: 'Segoe UI'">
+                <button id="search-btn"> 
+                    <i  class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+
+        <div class="option-left">
+            <ul>
+                <li>
+                    <a href="../HTML/FormDangKy.html"><img src="../Pic/ak1.webp" alt="đăng Ký"></a>
+                    <span><a href="../HTML/FormDangKy.html">Đăng Ký</a></span>
+                </li>
+                <li><a href="../HTML/FormDangNhap.html"><img src="../Pic/ak3.webp" alt="đăng nhập"></a>
+                    <span><a href="../HTML/FormDangNhap.html">Đăng Nhập</a> </span>
+                </li>
+                <li>
+                    <img src="../Pic/ak4.webp" alt="khuyến mãi">
+                    <span><a href="">Khuyến Mãi</a> </span>
+                </li>                    
+                <li>
+                    <img src="../Pic/ak5.webp" alt="giỏ hàng">
+                    <span><a href="">Giỏ Hàng</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="option-bottom">
+            <ul>                    <li>
+                    <img src="../Pic/phone.webp" alt="phone">
+                    <span>Tổng Đài </span> 
+                </li>
+
+                <li>
+                    <img src="../Pic/person.webp" alt="person">
+                    <span>Tuyển Dụng</span>
+                </li>
+
+                <li>
+                    <img src="../Pic/youtube.webp" alt="yt">
+                    <span>Videos</span>
+                </li>
+                <li>
+                    <img src="../Pic/system.webp" alt="hệ thống">
+                    <span>Hệ Thống Showroom</span>
+                </li>
+
+            </ul>
+        </div>
+    
+    </header>
+
+    <div id="nav"> 
+        <ul>
+            <li class="danhmuc" style="height: 30px; text-transform: none; font-size: 11px; font-weight: 600; font-family: sans-serif; color: #fff; background-color: #505050;">
+                <i class="fa fa-bars"></i>   
+                <span>Danh mục sản phẩm</span>   
+            </li>
+            <li>
+                <img src="../Pic/thanhtoan.webp" alt="thanhtoan">
+                <span>Thanh Toán</span>
+            </li>
+            <li>
+                <img src="../Pic/thanhtoan.webp" alt="tra gop">
+                <span>Trả Góp</span>
+            </li>
+            <li>
+                <img src="../Pic/suachua.webp" alt="suachua">
+                <span>Bảo Hành</span>
+            </li>
+            <li>
+                <img src="../Pic/car.webp" alt="vanchuyen">
+                <span>Vận Chuyển</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="sec">
+        <form class="dangky">
+            <h1 class="title">Tạo Tài Khoản</h1>
+            <div class="Ho" style="margin-bottom: 10px;">
+                <i class="fa fa-user" style="text-align: left;"></i>
+                <input type="text" name="text" id="text" placeholder="Họ"  class="form-control">
+            </div>
+            <div class="Ho">
+                <i class="fa fa-user"></i>
+                <input type="text" name="text" id="text" placeholder="Tên"  class="form-control">
+            </div>
+            <div class="Ho" style="width: 302px;">
+                <i class="fa-sharp fa-solid fa-envelope"></i>   
+                <input type="email" name="text" id="text" placeholder="Email"  class="form-control">
+            </div>
+    
+            <div class="Ho" style="width: 302px;">
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" name="text" id="text" placeholder="Phone"   class="form-control">
+            </div>
+            <div class="Ho" style="width: 300px;">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="text" id="text" placeholder="Mật Khẩu"  class="form-control">
+            </div>
+            <div id="dangky">
+                <button id="btdangky" >Đăng Ký</button>
+                <button id="btquayve">Quay Về</button>
+            </div>
+               
+        </form>
+            
+    </div>
+   
+</body>
+</html>
